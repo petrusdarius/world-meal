@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's Food</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9fd94e847a.js" crossorigin="anonymous"></script>
+
+    <!-- jquery & efek scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img src="./assets/img/logo.png" alt="logo" class="logo">
+                <a href="#" class="menu-icon">
+                    <span class="fas fa-bars"></span>
+                </a>
+                <a href="#home" class="page-scroll">Home</a>
+                <a href="#product" class="page-scroll">Food</a>
+                <a href="#comment" class="page-scroll">Comment</a>
+                <a href="#about" class="page-scroll">About</a>
+            </div>
+            <div class="header-right">
+                <a href="#">Log In</a>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <main>
+        <!-- jumbotron -->
+        <div class="jumbotron"  id="home">
+            <div class="container">
+                <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+            </div>
+
+            
+        </div>
+        <!-- end jumbotron -->
+
+        <!-- product -->
+        <section class="product" id="product">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>Food Around the World</h2>
+                    <hr>
+                    <search-bar></search-bar>
+                </div>
+               
+                <div class="foods">
+                    <div class="card text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5dfPVVXk78ydcYZOm2s719K4DqETH-Hclsw&usqp=CAU" alt="">
+                        <p class="african">AFRICAN</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZwWQbi2WdveNxOhQNOoS0WO2iTTrlv7tQvA&usqp=CAU" alt="">
+                        <p class="american">AMERICAN</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://cdn.idntimes.com/content-images/community/2019/09/recipe-london-bubble-and-squeak-1-7a691e04298de42671b7bd24c984fcce.jpg" alt="">
+                        <p class="british">BRITISH</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTMfQNEPiL8ywtcEGvrP975h2Paa-3u5xbXZw&usqp=CAU" alt="">
+                        <p class="cajun">CAJUN</p>                    
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mang%C3%BA_with_Veggie_Meat.JPG/220px-Mang%C3%BA_with_Veggie_Meat.JPG" alt="">
+                        <p class="caribbean">CARIBBEAN</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://i2.wp.com/zonamakan.com/wp-content/uploads/2019/05/kwetiau.png?w=612&ssl=1" alt="">
+                        <p class="chinese">CHINESE</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://www.gotravelly.com/blog/wp-content/uploads/2018/01/ravioli.jpg" alt="">
+                        <p class="italia">ITALIA</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <img src="https://www.gotravelly.com/blog/wp-content/uploads/2018/05/foie-gras.jpg" alt="">
+                        <p class="french">FRENCH</p>
+                </div>
+            </div>
+        </section>
+        <!-- end product -->
+
+        <!-- comment -->
+        <section class="comment" id="comment">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>Comment</h2>
+                    <hr>
+                </div>
+
+                <form id="col-comment">
+                    <div>
+                        <h3>Nama</h3>
+                        <input type="text" name= "Nama" placeholder="Nama">
+                    </div>
+
+                    <div>
+                        <h3>Email</h3>
+                        <input type="email" name= "email" placeholder="Email">
+                    </div>
+
+                    <div>
+                        <h3>Comment</h3>
+                        <textarea name="col-comment" id="col-comment" cols="30" rows="10" placeholder="Write your comment"></textarea>
+                    </div>
+                    
+                    <div>
+                        <input type="submit" value="Submit" class="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- end comment -->
+
+        <!-- about -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="heading text-center about-us">
+                    <h2>About Us</h2>
+                    <hr>
+                    <p>This website designed by</p>
+                </div>
+
+                <div class="profile text-center">
+                    <div class="profile-card">
+                        <img src="./assets/img/Petrus2.png" alt="" class="profile-img">
+                        <div class="profile-content">
+                            <h2>Petrus Darius Adidharma</h2>
+                            <p>"Just a Newbie Web Developer"</p>
+                        </div>
+                        <div class="profile-sosmed">
+                            <a href="#" class="icon-main">
+                                <span class="fab fa-facebook-square"></span>
+                               
+                            </a>
+                            <a href="#" class="icon-main">
+                                <span class="fab fa-twitter-square"></span>
+                               
+                            </a>
+                            <a href="#">
+                                <span class="fab fa-github-square" class="icon-main"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fab fa-youtube-square" class="icon-main"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="profile-card">
+                        <img src="./assets/img/jeny2.jpg" alt="" class="profile-img">
+                        <div class="profile-content">
+                            <h2>Jeny Ramadhani Trisnawati</h2>
+                            <p>"Just a Newbie Web Developer"</p>
+                        </div>
+                        <div class="profile-sosmed">
+                            <a href="#" class="icon-main">
+                                <span class="fab fa-facebook-square"></span>
+                            </a>
+                            <a href="#" class="icon-main">
+                                <span class="fab fa-twitter-square"></span>
+                            </a>
+                            <a href="#" class="icon-main">
+                                <span class="fab fa-github-square"></span>
+                            </a>
+                            <a href="#" class="icon-main">
+                                <span class="fab fa-youtube-square"></span>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- about us -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <img src="./assets/img/logo.png" alt="logo" class="footer-logo">
+            </div>
+
+            <div class="footer-right">
+                <a href="#">Support</a>
+                <a href="#">Policy</a>
+                <a href="#">Customer Services</a>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
